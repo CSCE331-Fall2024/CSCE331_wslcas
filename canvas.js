@@ -119,8 +119,8 @@ function resizeCanvas() {
     console.log(`Canvas size: ${canvas.width}x${canvas.height}`);
     console.log(`page dimensions: ${window.innerWidth}x${window.innerHeight}`);
     console.log(`sidebar dimensions: ${s.clientWidth}x${s.clientHeight}`);
-    pg.boxes = [];
-    makeBoxes();
+    // pg.boxes = [];
+    // makeBoxes();
 }
 function generateCoords(box1) {
     let x1 = Math.random() * (canvas.width - 300);
