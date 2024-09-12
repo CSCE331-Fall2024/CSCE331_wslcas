@@ -41,8 +41,7 @@ function getPage(page_id) {
 }
 
 function getPageName() {
-    const url = window.location.href;
-    const pageName = url.substring(url.lastIndexOf('/') + 1, url.lastIndexOf('.'));
+    let pageName = document.head.querySelector("meta[name=page-name]").content;
     return pageName;  // ex. returns home if pg is index.html
 }
 
