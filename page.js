@@ -22,7 +22,7 @@ let pages = [
         { text: "Switch Styles!", link: null },
         { text: "Community", link: "#environment" },
         { text: "Academics", link: "#academic" }
-    ], [], ""),
+    ], [], ["Click a service", "category to explore"]),
     new page(3, "ai", [], [], ""),
     new page(4, "portfolio",
         [
